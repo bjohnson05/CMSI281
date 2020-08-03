@@ -47,4 +47,29 @@ If no input file is specified or if the input file is not found, an appropriate 
            Please try again
 </pre>
 
+*If a valid file is specified as input*, then for every string in the file you must output its classification [either valid or invalid], and the decrypted string if applicable.  Using the file input.txt mentioned above, your program should behave as follows:
+
+<pre>
+   $ java HammingCheck input.txt
+      1110000 - valid, data sent was 1000
+      0101010 - valid, data sent was 0010
+      1101011 - invalid, data sent was 0001
+      1111111 - valid, data sent was 1111
+      0000000 - valid, data sent was 0000
+      0000001 - invalid, data sent was 0000
+</pre>
+
+# Compilation Notes
+
+Your program must compile from the command line or terminal using the following invocation:
+<pre>
+   $ javac *.java
+</pre>
+
+Do not submit any IDE specific files and in the interest of simplicity do not use packages for this assignment.  If your program does not compile using the command mentioned above you will receive no credit.
+
+# Additional Development Notes
+
+Please remember that when implementing this project you may be using elements of it in subsequent assignments or in other classes in your career.  In particular, you could be using the foundations for parity generation and checking using this scheme in a distributed fashion!
+
 # Good Luck!!
