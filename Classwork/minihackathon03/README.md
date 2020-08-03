@@ -1,13 +1,15 @@
 # Mini-Hackathon Number 3 &ndash; Hamming Encoding and Distance
 ## Learning Outcomes and Project Description
 
-The purpose of this assignment is to broaden your understanding of data structures by understanding how _HAMMING DISTANCES_ and the _(11, 4) Hamming Code_ scheme is implemented.  The Hamming Code is one way of doing *ERROR DETECTION AND CORRECTION* [or "EDAC"] which is used in network transmissions of all kinds to detect if an error has occurred during transmission, and correct it if possible.
+The purpose of this assignment is to broaden your understanding of data structures by understanding how _HAMMING DISTANCES_ and the _(7, 4) Hamming Code_ scheme is implemented.  The Hamming Code is one way of doing *ERROR DETECTION AND CORRECTION* [or "EDAC"] which is used in network transmissions of all kinds to detect if an error has occurred during transmission, and correct it if possible.
 
 In this assignment you will implement a program in Java which will accept as its input the name of a file containing a list of strings corresponding to seven bit sequences and will determine whether or not they correspond to valid, or invalid signals.  In addition, for those strings that are determined to be invalid, the likely correct string is to be provided as well.  In other words, if the bit string is valid [no errors] output the proper string including it's Hamming code bits showing both the original file line and the expanded Hamming coded line.
 
 ## Specification
 
 Define a program called <code>HammingCheck</code> which will accept as its input the name of a file containing a collection of strings corresponding to seven bit sequences will determine whether or not they correspond to valid or invalid signals.  In each case, the likely message is to be output as well.
+
+Hamming Encoding uses the idea of **parity** to detect if a bit pattern contains the correct bit values.  You can find an explanation of how it works at [this location](https://www.tutorialspoint.com/hamming-code-for-single-error-correction-double-error-detection).
 
 ## Input File Specification
 
@@ -40,11 +42,15 @@ The program <code>HammingCheck</code> is intended to be run via the following co
 If no input file is specified or if the input file is not found, an appropriate error message must be displayed. For example:
 <pre>
      $ java HammingCheck
+     
         HammingCheck: no input file was specified!
            Please try again
+           
      $ java HammingCheck bogusfile.txt
+     
         HammingCheck: input file 'bogusfile.txt' does not exist or cannot be opened.
            Please try again
+           
 </pre>
 
 *If a valid file is specified as input*, then for every string in the file you must output its classification [either valid or invalid], and the decrypted string if applicable.  Using the file input.txt mentioned above, your program should behave as follows:
