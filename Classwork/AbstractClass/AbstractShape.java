@@ -1,12 +1,12 @@
 /**
- * filename: AbstractClassUser.java
+ * filename: AbstractShape.java
  * purpose: demonstrate the use of abstract classes
  * author: Dr. Johnson
  * date: 2020-08-18
  *
  *  Abstract classes compared to interfaces
  *  =======================================
- *    An abstract class is a class that is declared abstract—it may or may
+ *    An abstract class is a class that is declared abstract — it may or may
  *    not include abstract methods. Abstract classes cannot be instantiated,
  *    but they can be subclassed.
  *    An abstract method is a method that is declared without an implementation
@@ -47,20 +47,18 @@
  *
  */
 
-public class AbstractClassUser {
+public abstract class AbstractShape {
 
-   private static final int BLUE = 1;
-   private static final int RED  = 2;
+   int color;
 
-   public AbstractClassUser() {
-      System.out.println( "\n  AbstractClassUser constructor is called." );
+   public AbstractShape() {
+      System.out.println( "\n  The abstract base class 'AbstractShape' constructor is called." );
    }
 
-   public static void main( String [] args ) {
-      AbstractClassUser acu = new AbstractClassUser();
-      Square s = new Square( 23 );
-      Circle c = new Circle();
-      c.setColor( BLUE );
+   abstract double getArea();
 
+   void setColor( int c ) {
+      color = c;
+      System.out.println( "\n    color set to " + color );
    }
 }
