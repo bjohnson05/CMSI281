@@ -2,8 +2,6 @@
 Homework02 Evaluation
 ======================
 
-Nice job on this assignment, with a couple of comments:
-
    <<comments go here, grades below>>
 
 scores:
@@ -41,7 +39,7 @@ CircularStack.java
    circular stack class compiles             [1 pt.]
    tests work as advertised                  [1 pt.]
 Josephus.java
-   Josephus problem class                    [EC 2 pt.]
+   Josephus problem class compiles           [EC 2 pt.]
    works as advertised                       [EC 3 pt.]
 Coding style
    Good names, consistent indenting          [4 pt.]
@@ -52,13 +50,4 @@ Total points is 35 for Queue, Deque, and Circular x2
 -------------------
  Grand total is 40 points
 
-You got 34 out of 35 which is 97.14% which is an A-plus
-
-===== for reference only, remove when committing =====
-you got 35 out of 35 which is 100% which is an A-plus
-you got 36 out of 35 which is 102.86% which is an A-plus
-you got 37 out of 35 which is 105.71% which is an A-plus
-you got 38 out of 35 which is 108.57% which is an A-plus
-you got 39 out of 35 which is 111.43% which is an A-plus
-you got 40 out of 35 which is 114.29% which is an A-plus
-
+You got 35 out of 35 which is 100.0% which is an A-plus
