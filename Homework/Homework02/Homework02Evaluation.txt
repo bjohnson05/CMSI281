@@ -4,8 +4,8 @@ Homework02 Evaluation
 
    <<comments go here, grades below>>
 
-scores:
-=============================
+scores:                                       worth      yours
+=============================                -------     -----
 Queue.java
    Queue class compiles                      [1 pt.]
    display method exists                     [1 pt.]
@@ -43,7 +43,7 @@ Josephus.java
    works as advertised                       [EC 3 pt.]
 Coding style
    Good names, consistent indenting          [4 pt.]
-   Headers in all files                      [5 pt.]
+   Headers in all files [free not mentioned] [5 pt.]
 
 Total points is 35 for Queue, Deque, and Circular x2
  extra credit is 7 points for Josephus
