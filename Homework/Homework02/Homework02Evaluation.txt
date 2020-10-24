@@ -46,8 +46,8 @@ Coding style
    Headers in all files                      [5 pt.]
 
 Total points is 35 for Queue, Deque, and Circular x2
- extra credit is 5 points for Josephus
+ extra credit is 7 points for Josephus
 -------------------
- Grand total is 40 points
+ Grand total is 42 points
 
 You got 35 out of 35 which is 100.0% which is an A-plus
