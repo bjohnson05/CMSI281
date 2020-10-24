@@ -1,0 +1,78 @@
+problem 1:
+   lines 1 and 5 are 1 each
+   line 2 is 1 + [(20 - 2) + 2] + (2 * 19) = 59
+   line 3 is (2 * 20) = 40
+total is 101 primitives which is Big-Oh( 1 )
+   because there is no "n" in the loop
+   [note line 2 counts are because of ­the '='
+      and starting at i = 2]
+
+========================================
+
+problem 2:
+   lines 3-5 and 13 are 1 each
+   lines 7-8 are 3 each
+   line 10 is 1 + 31 + (2 * 30) = 92
+   line 11 is (3 * 31) = 93
+   line 12 is (2 * 31) = 62
+total is 257 primitives which is Big-Oh( 1 )
+   because there is no "n" in the loop
+
+========================================
+
+problem 3:
+   line 2 is 2
+   line 3 is 1
+   line 4 is 2
+   lines 5-6 are 3 each
+   line 7 is 2
+   lines 8-9 are 3 each
+   line 10 is 1
+total is 20 primitives which is Big-Oh( 1 )
+   because why?
+
+========================================
+
+problem 4:
+   line 2 is 1
+   lines 3-5 is 7 total
+total is 8 primitives which is Big-Oh( 1 )
+
+========================================
+
+problem 5:
+   lines 1-3 are 1 each
+   line 4 is 2
+   line 6 is 1
+THIS IS A TRICK QUESTION!!
+   Because of the "continue" statement at line 3,
+      this code produces an infinite loop so no
+      running time can actually be calculated.
+
+========================================
+problem 6:
+   with an n of 100, an "n^2" algorithm will process
+      100 * 100 = 10,000 primitives in 2 minutes.
+   2 minutes is 120 seconds
+   Thus the machine processes at the rate of:
+      10,000 / 120 seconds = 83.34 primitives per second.
+
+   To do a list of 200 items, then, 200 x 200 is 40,000
+      primitives at 83.34 primitives per second is 479.96
+      seconds which is 7.999 minutes.
+
+Another [easier] way to work this
+      [thanks to Jordan Soldo and Max Hunter]:
+   200 x 200 is 40,000 which is 4 times bigger than 10,000
+   multiply the two minutes for 100 items by four
+   comes out to be 8 minutes.
+
+NOW THE LAST PART:
+   If the computer can go 2500 times faster, that means
+      it can process
+            83.34 * 2500 = 208,350 primitives per second
+      so in 60 seconds that means 12,501,000 primitives --
+         BUT!
+      it's an n^2 algorithm so the count is actually the
+         square root of that, which is ~3536 elements
+
