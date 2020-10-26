@@ -2,7 +2,7 @@
 Homework02 Evaluation
 ======================
 
-   <<comments go here, grades below>>
+   <<comments go here, evaluation points below>>
 
 scores:                                       worth      yours
 =============================                -------     -----
