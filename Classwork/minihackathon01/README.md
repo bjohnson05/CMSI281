@@ -1,7 +1,7 @@
 # Mini-Hackathon Number 1 &ndash; Towers of Hanoi Game
 ## Learning Outcomes and Project Description
 
-The purpose of this assignment is to broaden your understanding of data structures by implementing the game called *TOWERS OF HANOI*.  In this game you are give an stack of disks of increasing diameters that are stacked up in order with the smallest-diameter disk on the top of the stack.  The disks have a hole in the middle so that they can be stacked up on a post.  You are provided with three posts on which to stack these disks.  All the disks start out in a single stack on a single post.  The game is to move the entire stack from one post to another based on the following rules:
+The purpose of this assignment is to broaden your understanding of data structures by implementing the game called *TOWERS OF HANOI*.  In this game you are give a stack of disks of increasing diameters that are stacked up in order with the smallest-diameter disk on the top of the stack.  The disks have a hole in the middle so that they can be stacked up on a post.  You are provided with three posts on which to stack these disks.  All the disks start out in a single stack on a single post.  The game is to move the entire stack from one post to another based on the following rules:
 
 1. you can only move one disk at a time
 1. you can never put a disk with larger diameter on a disk with smaller diameter
